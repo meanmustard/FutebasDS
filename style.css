@@ -1,0 +1,45 @@
+body{
+    background-position: center;
+    background-image: url("UnB-Gama1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    display: block;
+    width: 250px;
+    margin: 50px auto;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 300px;
+
+}
+
+.item1, .item2, .item3{
+    display: block;
+    margin: 20px 32.5em;
+    border: none;
+    text-decoration: none;
+}
+
+.item1 button, .item2 button, .item3 button {
+    width: 500px;
+    height: 50px;
+    cursor: pointer;
+    border: 2px solid rgb(50, 50, 50);
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background: rgb(20, 20, 20);
+}
+
+.item1 button:hover, .item2 button:hover, .item3 button:hover{
+    background: rgb(50,50,50);
+    transition: background 1s;
+}
+
+.item1 button:active, .item2 button:active, .item3 button:active{
+    width: 0 550px;
+    background: rgb(150,150,150);
+    transition: background 0.2s;
+}
